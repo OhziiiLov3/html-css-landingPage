@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Josefin+Sans&family=Montserrat&family=Raleway&family=Roboto+Slab&family=Roboto:wght@300&family=Russo+One&family=Ysabeau+Infant:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eda751;
+  color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 25px;
+}
+
+.nav-title {
+  margin-left: 25px;
+}
+main {
+  height: 100vh;
+}
+
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/assets/images/landingImage.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text > button{
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: #eda751;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero-text > button:hover{
+    background-color: #fff;
+    color: #eda751;
+}
+
